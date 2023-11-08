@@ -52,4 +52,7 @@
 .moneyback{
     grid-area: s;
 }
+.nav-end{
+    text-align: end !important;
+}
 
