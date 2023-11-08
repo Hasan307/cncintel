@@ -1,0 +1,23 @@
+.gradient-button {
+    background-image: linear-gradient(to right,rgb(255, 255, 255), yellow);
+    color: black;
+    font-size: 12px;
+    transition: 0.3s;
+}
+.gradient-button:hover {
+    padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .05rem;
+    background-image: linear-gradient(to right,rgb(164, 144, 255), rgb(255, 255, 255));
+    color: white;
+}
+.dropdown-bgc{
+    
+    background-color: rebeccapurple;
+}
