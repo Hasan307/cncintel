@@ -32,3 +32,24 @@
     transition: 0.3s;
     border: 2px solid #04AA6D;
 }
+.hworks{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;;
+    grid-auto-flow: dense;
+    justify-content: center;
+    justify-items: center;
+}
+.review{
+ grid-area: r;
+}
+.gather{
+    grid-area: t;
+}
+.confront{
+    grid-area: p;
+}
+.moneyback{
+    grid-area: s;
+}
+
