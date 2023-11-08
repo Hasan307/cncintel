@@ -38,10 +38,12 @@
     grid-template-columns: 1fr 1fr;;
     grid-auto-flow: dense;
     justify-content: center;
-    justify-items: center;
+    
 }
 .review{
- grid-area: r;
+ background-color: white;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ justify-self: center;
 }
 .gather{
     grid-area: t;
@@ -55,4 +57,6 @@
 .nav-end{
     text-align: end !important;
 }
-
+.text-start1{
+    text-align: start !important;
+}
