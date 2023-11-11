@@ -84,8 +84,15 @@
 	transform: skew(-25deg);
 	background-image: linear-gradient(to bottom right, #00b6db, #01e2da);
     border-radius: 0px 0px 300px 0px;
-    
-  
+}
+@media screen and (max-width: 600px) {
+    .about-left {
+        width:0%;
+        height: 0%;
+        transform: skew(0deg);
+        background-image: linear-gradient(to bottom right, #00b6db, #01e2da);
+        border-radius: 0px 0px 0px 0px;
+    }
 }
 .about-left-content{
     position: absolute;
@@ -94,11 +101,27 @@
     
     margin-left:-200px;
 }
-
+@media screen and (max-width: 600px) {
+    .about-left-content {
+        position: static;
+        transform: skew(0deg);
+       margin-top: 50px;
+       margin-left: 50px;
+       text-align: center;
+       
+    }
+    
+}
 .about-left-content img{
     width:700px;
 
 
+}
+@media screen and (max-width: 600px) {
+    .about-left-content img {
+        width:200px;
+    }
+    
 }
 
 .about-right{
@@ -109,11 +132,46 @@
    
  
 }
+@media screen and (max-width: 600px) {
+    .about-right {
+        width: 100%;
+        position: static;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+}
+.mobilenav{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 0%;
+    height: 0px;
+    background-color: rgba(0, 179, 255, 0);
+}
+@media screen and (max-width: 600px) {
+    .mobilenav {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 80px;
+        background-color: #00b3ff3b;
+    }
+    
+}
 .grid-2c{
 
     display: grid;
     grid-template-columns: 1fr 1fr; 
 
+}
+@media screen and (max-width: 600px) {
+    .grid-2c {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+    
 }
 .grid-2c h1{
     font-size: 1.5rem;
@@ -125,9 +183,23 @@
 
     
 }
+@media screen and (max-width: 600px) {
+    .section-21 {
+        position: static;
+        top: 0px;
+    }
+    
+}
 .section-22{
     position: relative;
     top: 300px;
+    
+}
+@media screen and (max-width: 600px) {
+    .section-22 {
+        position: static;
+        top: 0px;
+    }
     
 }
 .section-23{
@@ -135,9 +207,23 @@
     top: 200px;
     
 }
+@media screen and (max-width: 600px) {
+    .section-23 {
+        position: static;
+        top: 0px;
+    }
+    
+}
 .section-24{
     position: relative;
     top: 300px;
+    
+}
+@media screen and (max-width: 600px) {
+    .section-24 {
+        position: static;
+        top: 0px;
+    }
     
 }
 
@@ -152,6 +238,20 @@
 	border-bottom: 300px solid transparent;
     justify-content: center;
 }
+@media screen and (max-width: 600px) {
+    .approach {
+        position: static;
+        margin-top: 0px;
+        width: 100%;
+        height: 50px;
+        border-top: 1200px #003672 ;
+        border-left: 1200px solid #003672;
+        border-right: 1200px solid #003672;
+        border-bottom: 1200px solid #003672;
+        justify-content: center;
+    }
+    
+}
 .approach-content{
     margin-left: 100px;
     
@@ -159,10 +259,37 @@
     margin-top: -520px;
    
 }
+@media screen and (max-width: 600px) {
+    .approach-content {
+        margin-left: 0px;
+        position: absolute;
+        margin-top: -820px;;
+    }
+    
+}
 .approach-content img{
     position: absolute;
     top: -100px;
+    width: 600px;
 }
+@media screen and (max-width: 600px) {
+    .approach-content img {
+        margin-left: 20px;
+        position: absolute;
+        top: -300px;
+        width: 300px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .approach-text {
+        text-align: center;
+        padding: 20px;
+    }
+    
+}
+
+
 .approach-content  h1{
     font-size: 2.5rem;
     color: white;
