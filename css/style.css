@@ -287,17 +287,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(72, 181, 245, 0.5);
         position: relative; }
         .site-nav .site-navigation .site-menu > li > a:hover {
-          color: #ffffff; }
+          color: #517fff; }
       .site-nav .site-navigation .site-menu > li.cta-button a {
         padding: 5px 22px;
         border: 1px solid rgba(0, 0, 0, 0.1);
         color: #000000;
         border-radius: 30px; }
         .site-nav .site-navigation .site-menu > li.cta-button a:hover {
-          color: #ffffff;
+          color: rgba(72, 181, 245, 0.5);
           background: #ffffff;
           border-color: #ffffff; }
       .site-nav .site-navigation .site-menu > li.cta-button.active a {
@@ -305,7 +305,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         background: #ffffff;
         border-color: #ffffff; }
       .site-nav .site-navigation .site-menu > li.active > a {
-        color: #ffffff; }
+        color: rgb(72, 182, 245); }
     .site-nav .site-navigation .site-menu .has-children {
       position: relative; }
       .site-nav .site-navigation .site-menu .has-children > a {

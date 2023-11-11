@@ -68,3 +68,29 @@
 .text-start1{
     text-align: start !important;
 }
+
+.about-hero{
+ background-repeat: no-repeat !important;
+ background-size: 800px !important;
+ background-position-x: left;
+ background-position-y:top;
+}
+.about-hero .container img{  
+    margin: 0px !important;
+}
+.grid1{
+    display: grid;
+}
+.grid-about-hero{
+    background-image: src('/images/cyber-security-10.webp');
+  
+}
+.aheroimg{
+
+    
+  
+}
+.aherotxt{
+   
+
+}
