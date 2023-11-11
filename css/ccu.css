@@ -75,22 +75,122 @@
  background-position-x: left;
  background-position-y:top;
 }
-.about-hero .container img{  
-    margin: 0px !important;
-}
 .grid1{
     display: grid;
 }
-.grid-about-hero{
-    background-image: src('/images/cyber-security-10.webp');
-  
-}
-.aheroimg{
-
+.about-left{
+    width: 500px;
+	height: 760px;
+	transform: skew(-25deg);
+	background-image: linear-gradient(to bottom right, #00b6db, #01e2da);
+    border-radius: 0px 0px 300px 0px;
     
   
 }
-.aherotxt{
-   
+.about-left-content{
+    position: absolute;
+    transform: skew(30deg);
+    margin-top:70px;
+    
+    margin-left:-200px;
+}
+
+.about-left-content img{
+    width:700px;
+
 
 }
+
+.about-right{
+    width: 500px;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 600px;
+   
+ 
+}
+.grid-2c{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+
+}
+.grid-2c h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.section-21{
+    position: relative;
+    top: 200px;
+
+    
+}
+.section-22{
+    position: relative;
+    top: 300px;
+    
+}
+.section-23{
+    position: relative;
+    top: 200px;
+    
+}
+.section-24{
+    position: relative;
+    top: 300px;
+    
+}
+
+
+.approach{
+    position: relative;
+    margin-top: 200px;
+    width: 1005;
+	height: 50px;
+	border-top: 400px solid transparent;
+	border-left: 1200px solid #003672;
+	border-bottom: 300px solid transparent;
+    justify-content: center;
+}
+.approach-content{
+    margin-left: 100px;
+    
+    position: absolute;
+    margin-top: -520px;
+   
+}
+.approach-content img{
+    position: absolute;
+    top: -100px;
+}
+.approach-content  h1{
+    font-size: 2.5rem;
+    color: white;
+}
+.approach-content  p{
+    
+    color: white;
+}
+.approach-content h2{
+    color: #00b4ff ;
+}
+
+.round-button{
+    
+    border-radius: 40px;
+    border: 2px solid rgb(7, 248, 248);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    color: white;
+}
+.footer1{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+
+
+
