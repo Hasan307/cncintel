@@ -290,14 +290,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         color: rgba(72, 181, 245, 0.5);
         position: relative; }
         .site-nav .site-navigation .site-menu > li > a:hover {
-          color: #517fff; }
+          color: #ffffff; }
       .site-nav .site-navigation .site-menu > li.cta-button a {
         padding: 5px 22px;
         border: 1px solid rgba(0, 0, 0, 0.1);
         color: #000000;
         border-radius: 30px; }
         .site-nav .site-navigation .site-menu > li.cta-button a:hover {
-          color: rgba(72, 181, 245, 0.5);
+          color: rgb(255, 255, 255);
           background: #ffffff;
           border-color: #ffffff; }
       .site-nav .site-navigation .site-menu > li.cta-button.active a {

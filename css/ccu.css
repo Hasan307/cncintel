@@ -319,5 +319,198 @@
 }
 
 
+.asset1{
+    height: 700px;
+    width: 200%;
+    background-color: #164e8d;
+    position: absolute;
+    margin-left:-110px;
+    border-bottom-right-radius: 1000px;
+    transform: matrix(1.5, -0.3, 0, 1, 0, 0);
+}
+@media screen and (max-width: 600px) {
+    .asset1 {
+        height: 600px;
+        width: 100%;
+        background-color: #164e8d;
+        margin-left:0px;
+        position: absolute;
+        border-bottom-right-radius: 200px;
+        transform: matrix(1.5, -0.3, 0, 1, 0, 0);
+    }
+    
+}
+.asset11{
+    height: 400px;
+    width: 100%;
+    
+    background-color: #164e8d;
+    position: absolute;
+    margin-left:-110px;
+    border-bottom-right-radius: 500px;
+
+}
+@media screen and (max-width: 600px) {
+    .asset11 {
+        height: 400px;
+        width: 100%;
+        background-color: #164e8d;
+        position: absolute;
+        margin-left:-110px;
+        border-bottom-right-radius: 500px;
+    }
+    
+}
+
+
+.asset2 img{
+    width: 800px;
+   
+}
+@media screen and (max-width: 600px) {
+    .asset2 img {
+        width: 300px;
+        padding: 30px;
+    }
+    
+}
+.asset-margin{
+    margin-top: 100px ;
+}
+@media screen and (max-width: 600px) {
+    .asset-margin {
+        margin-top: 0px ;
+    }
+    
+}
+.asset-text{
+    z-index: 2;
+    position: absolute;
+}
+@media screen and (max-width: 600px) {
+    .asset-text {
+        z-index: 2;
+        position: static;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    
+}
+.asset-text p{
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    .asset-text p {
+        font-size: 12px;
+    }
+    
+}
+.asset-text h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+.asset-about{
+    width: 800px;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+@media screen and (max-width: 600px) {
+    .asset-about {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    
+}
+
+
+.fund-recovery{
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-top: 600px solid transparent;
+	border-right: 1400px solid #2472cc;
+	border-bottom: 500px solid transparent;
+    
+
+}
+@media screen and (max-width: 600px) {
+    .fund-recovery {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-right: 450px solid #2472cc;
+        border-bottom: 1000px solid #2472cc;
+    }
+    
+}
+.fund-img{
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .fund-img {
+        width: 100%;
+    }
+    
+}
+.fund-middle{
+    margin-top: 400px;
+}
+@media screen and (max-width: 600px) {
+    .fund-middle {
+        margin-top: 0px;
+    }
+    
+}
+.hire-law{
+
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    border: 3px solid #2472cc;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 50px;
+    text-align: center;
+}
+.hire-law h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.reason {
+    font-weight: 700;
+}
+
+.Tracing{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 30px;
+    box-shadow: rgb(65, 154, 255) 0px 0px 10px 0px;
+}
+.steps-to-trace{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(65, 154, 255) 0px 0px 15px 0px;
+}
+.conclusion{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(212, 212, 212) 0px 0px 10px 0px;
+}
+
+
+
 
 
