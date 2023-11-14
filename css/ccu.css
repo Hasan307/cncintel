@@ -527,6 +527,20 @@ z-index: 1; position: absolute;
 }
 
 
+.consultation-form{
+    position: relative;
+    margin-top: 300px !important;
 
+    background-color: #ffffff;
+}
+.logo1 img{
+    width: 200px;
+}
+@media screen and (max-width: 600px) {
+    .logo1 img {
+        width: 100px;
+    }
+    
+}
 
 
