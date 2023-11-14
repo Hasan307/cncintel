@@ -361,6 +361,22 @@
     }
     
 }
+.network{
+   margin-left: -150px;
+   margin-top: -100px;
+width: 500px;
+z-index: 1; position: absolute;
+}
+@media screen and (max-width: 600px) {
+    .network {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 300px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+}
 
 
 .asset2 img{
