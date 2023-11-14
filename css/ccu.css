@@ -427,6 +427,12 @@ z-index: 1; position: absolute;
     font-weight: 700;
 }
 
+@media screen and (max-width: 600px) {
+    .asset-text h1 {
+        font-size: 2rem !important;
+    }
+    
+}
 
 .asset-about{
     width: 800px;
@@ -529,9 +535,18 @@ z-index: 1; position: absolute;
 
 .consultation-form{
     position: relative;
-    margin-top: 300px !important;
+    margin-top: 900px !important;
 
     background-color: #ffffff;
+    width: 700px;
+}
+@media screen and (max-width: 600px) {
+    .consultation-form {
+        margin-top: 500px !important;
+        background-color: #ffffff;
+        width: 100%;
+    }
+    
 }
 .logo1 img{
     width: 200px;
@@ -542,5 +557,22 @@ z-index: 1; position: absolute;
     }
     
 }
-
-
+.consultaionhero{
+    margin-top: 150px;
+}
+@media screen and (max-width: 600px) {
+    .consultaionhero {
+        margin-top: 150px;
+    }
+    
+}
+.contact-form1{
+    position: relative;
+    width: 100%;
+    height: 100%px;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 150px !important;
+    background-color: #ffffff;
+    box-shadow: #6bb8c5 0px 0px 10px 0px;
+}
