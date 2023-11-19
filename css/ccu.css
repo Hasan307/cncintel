@@ -308,10 +308,9 @@
 
 .asset1{
     height: 700px;
-    width: 200%;
+    width: 100%;
     background-color: #164e8d;
     position: absolute;
-    margin-left:-110px;
     border-bottom-right-radius: 1000px;
     transform: matrix(1.5, -0.3, 0, 1, 0, 0);
 }
@@ -440,18 +439,17 @@ z-index: 1; position: absolute;
 
 .fund-recovery{
     position: absolute;
-    width: 0;
-	height: 0;
-	border-top: 600px solid transparent;
-	border-right: 1400px solid #2472cc;
-	border-bottom: 500px solid transparent;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to top right, #1a36b3, #01e2da);
+    transform: matrix(1.5, 0, 0, 1, 0, 0);
     
 
 }
 @media screen and (max-width: 600px) {
     .fund-recovery {
         position: absolute;
-        width: 0;
+        width:100%;
         height: 0;
         border-top: 50px solid transparent;
         border-right: 450px solid #2472cc;
